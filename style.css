@@ -39,6 +39,7 @@ body {
   /*height: 100%;*/
 }
 
+
 .box-1 {
   /*background-color: #D1EF39;*/
   background-color: #88D9E6;
@@ -91,14 +92,24 @@ background-color: #87FF65;
  /*background-color: #FFF2CE;*/
  /*background-color: #484E3F;*/
 }
+
+.icon-container {
+  display: flex;
+  height: 50%;
+  flex-direction: column;
+  /*text-align: center;*/
+  justify-content: center;
+  align-items: center;
+  /*display: block;*/
+}
 .main-right {
   /*background-image: url('Images/IMG_2867.jpg')*/
 }
 
 img {
 
-  width: 15%;
-  display: block;
+  width: 20%;
+  display: inline-block;
 }
 
 
@@ -155,15 +166,12 @@ article {
   align-items: center;
 }
 
-.words {
+.icon-container {
+  /*display: flex;*/
   height: 50%;
-  text-align: center;
+  justify-content: center;
+  align-items: center;
   /*display: block;*/
-}
-
-img {
-  text-align: center;
-  width: 10%;
 }
 
 }
