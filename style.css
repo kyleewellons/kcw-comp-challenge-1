@@ -18,25 +18,19 @@ body {
 }
 
 .main-right {
-  /*border: solid;*/
   background-image: url("Images/IMG_2867.jpg");
-  background-position: center fixed;
+  background-position: center;
   background-size: 100vh, cover;
   background-repeat: no-repeat;
   height: 100vh;
-  width: 40%;
-  /*height: 100vh;*/
+  width: 30%;
   display: inline;
 }
 .box {
-  /*border: solid;*/
   display: flex;
   justify-content: center;
   align-items: center;
   width: 33.333%;
-
-  /*width: calc(60%1/3);*/
-  /*height: 100%;*/
 }
 
 
@@ -117,35 +111,58 @@ div {
 }
 
 @media only screen and (max-width: 1045px) {
+  .main-wrapper {
+    width: 100%;
+    /*background-position: center;*/
+
+    /*display: flex;*/
+    flex-wrap: wrap;
+  }
+
   .main-left{
     width: 100%;
+  /*position: absolute;*/
+  order: 0;
+
   }
 
   .main-right {
-display: none;    
+    background-position: top 30% right 50%;
+    background-size: cover;
+    order: -1;
+    width: 106%;
+    height: 20rem;
+    top: 30%;
   }
 
   .box {
     width: 50%;
+    height: 50%;
   }
 
-  .box-1 {
-    width: 50%;
-  }
-
-  .box-1:hover {
-  background-image: url("Images/IMG_2867.jpg");
-
+  .box-1,
+  .box-8 {
+    text-align: center;
+    width: 100%;
   }
 
 }
 
 @media only screen and (max-width: 690px) {
+ .main-right {
+    background-position: top 30% right 50%;
+    background-size: cover;
+    order: -1;
+    width: 106%;
+    height: 20rem;
+    top: 30%;
+  }
+
 .box {
   padding: 5px 5px 5px 5px;
   width: 100%;
-  position: relative;
-  transition: height 0.5s;
+  /*position: relative;*/
+  /*transition: height 0.5s;*/
   -webkit-transition: height 0.5s;
   overflow: hidden;
 }
@@ -161,14 +178,11 @@ display: none;
   width: 100%
 }
 
-.box-1:hover {
-  background-image: url("Images/IMG_2867.jpg");
-    background-size: 100vh, cover;
-}
 
-nav {
+
+/*nav {
  text-align: center;
-}
+}*/
 
 .main-right {
   width: 1px;
