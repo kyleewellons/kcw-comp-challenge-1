@@ -29,25 +29,15 @@ body {
 
 .arrow-wrapper {
   display: flex;
-  margin: 0 auto;
-  width: 3em;
+  justify-content: space-between;
+  align-items: center;
+  margin: 85% auto;
 }
 
 .arrow-btns {
-  /*justify-content: center;*/
-  /*align-items: center;*/
-  /*display: inline;*/
+  display: inline;
   width: 3em;
-  /*margin: 10%;*/
-  /*justify-content: space-between;*/
-}
-
-.left-wrapper {
-  float: right;
-}
-
-.right-wrapper {
-  float: right;
+  margin: 10%;
 }
 
 .box {
@@ -131,9 +121,13 @@ button {
 .icons:hover {
   opacity: 0.3;
   position: absolute;
-}
+
 }
 
+.arrow-btns:hover {
+  opacity: 0.3;
+}
+}
 div {
   width: 50%;
 }
