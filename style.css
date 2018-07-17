@@ -112,6 +112,15 @@ button {
   background-color: #5A5A66;
 }
 
+.box-1,
+.box-8 {
+  width: 100%;
+  background-color: #88D9E6;
+  text-align: center;
+  height: 30%;
+}
+  }
+
 .icon-container {
   display: flex;
   width: 100%;
@@ -179,14 +188,6 @@ float: right;
   width: 3em;
   margin: 15%;
 }
-.box-1,
-.box-8 {
-  width: 100%;
-  background-color: #88D9E6;
-  text-align: center;
-  height: 30%;
-}
-  }
 
 @media only screen and (max-width: 690px) {
 .main-left {
