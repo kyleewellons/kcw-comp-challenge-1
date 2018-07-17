@@ -154,18 +154,12 @@ float: right;
   width: 20%;
 }
 
-.btn-icon:hover {
-  position: absolute;
-}
-
-
-
 .box {
   height: 50%;
   width: 50%;
 }
 .main-right {
-  background-position: top 25% right 0%;
+  background-position: top 25% right 50%;
   background-size: cover;
   order: -1;
   width: 100%;
@@ -185,10 +179,6 @@ float: right;
   width: 3em;
   margin: 15%;
 }
-
-
-
-
 .box-1,
 .box-8 {
   width: 100%;
