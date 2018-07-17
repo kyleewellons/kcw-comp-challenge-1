@@ -80,7 +80,11 @@ float: right;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 10% auto;
+  margin: 15% 10%;
+}
+
+.more-icon {
+  margin-left: 50%;
 }
 
 .arrow-btns {
