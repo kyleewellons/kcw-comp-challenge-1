@@ -1,6 +1,8 @@
 
 body {
-    font-family: 'Advent Pro', sans-serif;
+  font-family: 'Advent Pro', sans-serif;
+  font size: 3em;
+  letter-spacing: 1.5px;
 }
 
 button {
