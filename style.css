@@ -3,10 +3,26 @@ body {
     font-family: 'Advent Pro', sans-serif;
 }
 
-.icon:hover {
-  opacity: 0.3;
+button {
+  height: 4em;
+}
+button:hover {
+ opacity: 0.3;
 }
 
+
+.icon {
+
+  width: 15%;
+}
+
+.icon:hover {
+  display: inline-block;
+  opacity: 0.3;
+  /*position: absolute;*/
+  text-align: center;
+
+}
 .arrow-wrapper {
   display: flex;
   justify-content: space-between;
