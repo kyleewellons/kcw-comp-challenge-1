@@ -8,6 +8,7 @@ body {
 
 button {
   height: 4em;
+
 }
 button:hover {
  opacity: 0.3;
@@ -34,7 +35,7 @@ button:hover {
 .arrow-btns {
   display: inline;
   width: 3em;
-  margin: 15%;
+  /*margin: 5%;*/
 }
 
 .arrow-btns:hover {
@@ -79,7 +80,7 @@ float: right;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 20% auto;
+  margin: 10% auto;
 }
 
 .arrow-btns {
@@ -101,7 +102,7 @@ float: right;
   width: 25%;
 }
 
-img{
+img {
   width: 15%;
 }
 
@@ -181,7 +182,6 @@ nav {
 .btn-icon {
   width: 20%;
 }
-
 
 button {
   background: transparent;
