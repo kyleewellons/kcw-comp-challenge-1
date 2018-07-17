@@ -235,7 +235,7 @@ img {
   width: 15%;
 }
 
-img:hover {
+.icons:hover {
   display: inline-block;
   opacity: 0.3;
   position: absolute;
@@ -249,7 +249,7 @@ div {
 
 @media only screen and (max-width: 1045px) {
 .main-wrapper {
-  width: 100%;
+  width: 106%;
   flex-wrap: wrap;
 }
 
