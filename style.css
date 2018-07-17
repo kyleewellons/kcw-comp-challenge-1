@@ -20,7 +20,6 @@ button:hover {
 }
 
 .icon:hover {
-  /*display: inline-block;*/
   opacity: 0.3;
   text-align: center;
 
@@ -40,6 +39,7 @@ button:hover {
 
 .arrow-btns:hover {
   opacity: 0.3;
+  display: relative;
 }
 
 .more-icon {
@@ -148,9 +148,8 @@ article {
   width: 70%;
   flex-wrap: wrap; 
 }
-
 .main-right {
-    background-position: top 25% right 100%;
+    background-position: top 25% right 70%;
     background-image: url(Images/IMG_2867.jpg);
     background-size: 50rem, cover;
     background-repeat: no-repeat;
