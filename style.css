@@ -3,6 +3,7 @@ body {
   font-family: 'Advent Pro', sans-serif;
   font size: 3em;
   letter-spacing: 1.5px;
+  box-sizing: border-box;
 }
 
 button {
@@ -19,9 +20,8 @@ button:hover {
 }
 
 .icon:hover {
-  display: inline-block;
+  /*display: inline-block;*/
   opacity: 0.3;
-  /*position: absolute;*/
   text-align: center;
 
 }
@@ -116,8 +116,6 @@ img{
 
 .box:hover {
   height: 30%;
-  margin: 0 auto;
-  padding: 0 auto;
 }
 
 .box-1 {
