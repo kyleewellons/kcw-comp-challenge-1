@@ -4,6 +4,7 @@ body {
   padding: 0;
   color: #FFF;
   font-family: 'Advent Pro', sans-serif;
+  letter-spacing: 1.5px;
 }
 
 .main-wrapper {
@@ -70,12 +71,17 @@ nav {
   text-shadow: 1px 1px grey;
 }
 
+.btn-icon:hover {
+ opacity: 0.3;
+}
+
 button {
   background: transparent;
   border: solid 1px #FFF;
   color: #FFF ;
   justify-content: space-between;
   margin: 10px 10px;
+  width: 30%;
 }
 
 .box-2 {
@@ -144,8 +150,22 @@ float: right;
   order: 0;
 }
 
+.btn-icon {
+  width: 20%;
+}
+
+.btn-icon:hover {
+  position: absolute;
+}
+
+
+
+.box {
+  height: 50%;
+  width: 50%;
+}
 .main-right {
-  background-position: top 30% right 50%;
+  background-position: top 25% right 0%;
   background-size: cover;
   order: -1;
   width: 100%;
@@ -153,26 +173,28 @@ float: right;
   top: 30%;
 }
 
-button {
-  width: 30%;
+.arrow-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20% auto;
 }
 
-.btn-icon {
-  width: 20%;
+.arrow-btns {
+  display: inline;
+  width: 3em;
+  margin: 15%;
 }
 
 
-.box {
-  height: 50%;
-  width: 50%;
-}
+
 
 .box-1,
 .box-8 {
   width: 100%;
   background-color: #88D9E6;
   text-align: center;
-  height:50%;
+  height: 30%;
 }
   }
 
