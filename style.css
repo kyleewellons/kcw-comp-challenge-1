@@ -22,7 +22,7 @@ body {
   background-image: url(Images/IMG_2867.jpg);
   background-size: 50rem, cover;
   background-repeat: no-repeat;
-  width: 30%;
+  width: 40%;
   height: 100vh;
   display: inline;
 }
@@ -31,13 +31,13 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 85% auto;
+  margin: 70% auto;
 }
 
 .arrow-btns {
   display: inline;
   width: 3em;
-  margin: 10%;
+  margin: 15%;
 }
 
 .box {
@@ -127,9 +127,10 @@ button {
 .arrow-btns:hover {
   opacity: 0.3;
 }
-}
-div {
-  width: 50%;
+
+.more-icon {
+width: 10%;
+float: right;
 }
 
 @media only screen and (max-width: 1040px) {
